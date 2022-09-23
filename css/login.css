@@ -9,3 +9,6 @@ flex: 1;
 height: 1px;
 background: rgb(108, 54, 157);
 }
+body {
+  background-color:  rgb(108, 54, 157);
+}
