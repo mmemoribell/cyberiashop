@@ -1,0 +1,11 @@
+header {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30pt;
+ }
+ .divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: rgb(108, 54, 157);
+}
