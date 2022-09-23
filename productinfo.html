@@ -7,9 +7,17 @@
     <title>Product Info</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" 
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+       <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<header>FAQ</header>
+
 
 <link rel="stylesheet" href="css/productinfo.css">
 
@@ -24,26 +32,129 @@
           <li class="nav-item"><a href="shop.html" class="nav-link">Shop</a></li>
           <li class="nav-item"><a href="Cart.html" class="nav-link">Cart</a></li>
         </ul>
-      </header>
+        </header>
+        <h1> FAQ </h1>
+      
+  <!--Main Navigation-->
+  <Body>
+    <style>
+      /* Carousel styling */
+      #introCarousel,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-item.active {
+        height: 100vh;
+      }
 
-    <p>
-        We make our products with the best intentions and thoughts of our clients health in mind.
-    </p>
+      .carousel-item:nth-child(1) {
+        background-image: url('https://wallpapercave.com/wp/wp6566687.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
 
-    <p>
-        Most of our wares are safe to use on a regular baises.
-        we do
-    </p>
- <div class="not">
-    <p>NOT</p>
-</div>
-    <p>store your personal data on our servers</p>
-    <p>we also dont</p>
+      .carousel-item:nth-child(2) {
+        background-image: url('https://wallpapercave.com/wp/wp6566687.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(3) {
+        background-image: url('https://wallpapercave.com/wp/wp6566687.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #introCarousel {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+    </style>
+    <!-- Carousel wrapper -->
+    <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+        <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+      </ol>
+
+      <!-- Inner -->
+      <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white text-center">
+                <h1 class="mb-3">Frequently Asked Questions?</h1>
+                <h5 class="mb-4">Cyberia tech has been asked multiple questions concerning the reliability of our tech sharing information with other sources or partners.
+                  To that we say "We never have and never will". Most of our partners respect your privacy and will not ask us to share your data with them. We made sure all of your data is encrypted, how? Well we triple double quadruple pass it into encryption databases and then always pass it onto other newer data bases and it never tied back to anyone. We've made sure of that. 
+                  Another question I would get is "How are your AI's different?" Well for starters you don't need them stuck in your phone, nor do you need them stuck in a box or capsule with mirrors. They will walk around plain and easily as long as you carry the GAIA-798 MOD. The GAIA-789 MOD Is the only way your AI can appear next or in whatever space your in. We can not go into depth to bore you but we can say it's simple as a camera for the eyes.</h5>
+                <a class="btn btn-outline-light btn-lg m-2" href="images/cyberwall.jpg"
+                  role="button" rel="nofollow" target="_blank">Further Qurstions</a>
+                <a class="btn btn-outline-light btn-lg m-2" href="images/cyberwall.jpg"
+                  target="_blank" role="button">Email Us Now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white text-center">
+                <h2>You can place here any content</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <div class="mask" style="
+                background: linear-gradient(
+                  45deg,
+                  rgba(29, 236, 197, 0.7),
+                  rgba(91, 14, 214, 0.7) 100%
+                );
+              ">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white text-center">
+                <h2>And cover it with any mask</h2>
+                <a class="btn btn-outline-light btn-lg m-2"
+                  href="images/cyberwall.jpg" target="_blank" role="button">Learn
+                  about masks</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Inner -->
+
+      <!-- Controls -->
+      <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Carousel wrapper -->
+  </body>
+  <!--Main Navigation-->
+
+  <!--Main layout-->
+  <main class="mt-5">
+    <div class="container">
    
-   <div class="def not"> 
-    <p>SPY</p>
-    <p>ON</p>
-    <P>YOU</P>
-</div>
-</body>
-</html>
